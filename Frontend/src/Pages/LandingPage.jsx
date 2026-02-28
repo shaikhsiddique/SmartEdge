@@ -86,7 +86,7 @@ export default function LandingPage() {
   return (
     <div
       ref={containerRef}
-      className="h-screen w-screen overflow-hidden relative bg-[#0F0E0E]"
+      className="h-screen w-screen overflow-hidden relative bg-black"
     >
       <Navbar />
 
