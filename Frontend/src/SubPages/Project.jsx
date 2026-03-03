@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { Canvas, useLoader } from '@react-three/fiber';
 import { OrbitControls, Text } from '@react-three/drei';
-import { EffectComposer, ToneMapping, Noise, Vignette } from '@react-three/postprocessing';
 import * as THREE from 'three';
 import 'remixicon/fonts/remixicon.css';
 
@@ -10,7 +9,7 @@ const images = [
   { url: '/projectImages/p1.png', link: 'https://example.com/1', title: 'click to view' },
   { url: '/projectImages/p2.png', link: 'https://example.com/2', title: 'click to view' },
   { url: '/projectImages/p4.png', link: 'https://example.com/4', title: 'click to view' },
-  { url: '/projectImages/p7.png', link: 'https://example.com/7', title: 'click to view' },
+  { url: '/projectImages/p12.png', link: 'https://example.com/7', title: 'click to view' },
   { url: '/projectImages/p8.png', link: 'https://example.com/8', title: 'click to view' },
 ];
 
@@ -22,7 +21,7 @@ function ImagePlane({ url, link, title, position, angle }) {
   if (!image) return null; // Wait for texture to load
 
   const aspectRatio = image.width / image.height;
-  const height = 2.0;               // Fixed height for all images
+  const height = 3;               // Fixed height for all images
   const width = height * aspectRatio;
 
   const handleClick = () => window.open(link, '_blank');
@@ -42,25 +41,13 @@ function ImagePlane({ url, link, title, position, angle }) {
       </mesh>
 
       {/* Website name label – placed below the image */}
-      <Text
-        position={[0, -1.2, 0]}
-        rotation-y={Math.PI / 2 - angle + Math.PI}
-        fontSize={0.2}
-        color="white"
-        anchorX="center"
-        anchorY="top"
-        fontWeight="bold"
-        outlineWidth={0.02}
-       
-      >
-        {title}
-      </Text>
+      
     </group>
   );
 }
 
 function Scene() {
-  const radius = 5;                  // Larger radius reduces side distortion
+  const radius = 6;                  // Larger radius reduces side distortion
   const count = images.length;
 
   return (
@@ -102,9 +89,9 @@ export default function Project() {
         flat
         camera={{
           fov: 50,                    // Narrower FOV = less distortion
-          near: 0.1,
-          far: 1000,
-          position: [0, 1, 5]         // Outside the circle, looking at center
+          near: 1,
+          far: 10000,
+          position: [0, 1, 5.5]         // Outside the circle, looking at center
         }}
       >
         <OrbitControls
@@ -117,11 +104,7 @@ export default function Project() {
           target={[0, 0, 0]}          // Look at center
         />
         <Scene />
-        <EffectComposer>
-          <ToneMapping adaptive />
-          <Noise opacity={0.02} />
-          <Vignette eskil={false} offset={0.1} darkness={1.1} />
-        </EffectComposer>
+        
       </Canvas>
     </div>
   );
