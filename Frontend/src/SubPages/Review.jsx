@@ -74,20 +74,20 @@ function Review() {
           <span className="text-sm font-medium">Review</span>
         </div>
 
-        <div className="text-white text-5xl review-header py-4">
+        <div className="text-white md:text-5xl text-3xl review-header py-4">
           <h3>Our Customer Reviews</h3>
         </div>
       </div>
 
       {/* First 3 Reviews */}
-      <div className="flex justify-center gap-8 flex-wrap px-6 mb-6 -ml-32">
+      <div className="flex justify-center gap-8 flex-wrap px-6 mb-6 md:-ml-32">
         {firstRow.map((review, index) => (
           <ReviewCard key={index} review={review} />
         ))}
       </div>
 
       {/* Second 3 Reviews (Different Styling Section) */}
-      <div className="flex justify-center gap-8 flex-wrap px-6 pb-20 opacity-90 -mr-32">
+      <div className="flex justify-center gap-8 flex-wrap px-6 pb-20 opacity-90 md:-mr-32">
         {secondRow.map((review, index) => (
           <ReviewCard key={index} review={review} />
         ))}

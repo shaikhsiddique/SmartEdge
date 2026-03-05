@@ -29,13 +29,13 @@ function AllProjects() {
   ];
 
   return (
-    <div className=" h-[60vh] w-screen bg-black">
+    <div className=" min-h-[60vh] w-screen bg-black">
       <div className="text-white flex items-center justify-between w-full p-12">
         <h1 className="text-3xl font-semibold">Our Projects</h1>
         <Link to="/work" className="cursor-pointer opacity-70 text-sm hover:underline ">View All</Link>
       </div>
     <h4 className=" text-white px-36 text-xl project-type"></h4>
-      <div className="flex justify-center gap-10">
+      <div className="flex flex-wrap md:flex-nowrap justify-center gap-10 md:px-20 px-4">
 
         {projectData.map((project) => (
           <ProjectCard key={project.id} project={project} />

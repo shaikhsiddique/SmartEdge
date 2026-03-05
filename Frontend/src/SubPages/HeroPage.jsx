@@ -11,7 +11,7 @@ function HeroPage() {
         absolute inset-0
         bg-[radial-gradient(rgba(255,255,255,0.18)_0.6px,transparent_0.6px)]
         bg-[size:10px_10px]
-        mx-24
+        md:mx-24
         "
       />
 
@@ -27,15 +27,15 @@ function HeroPage() {
      
 
       {/* Content */}
-      <div className="flex flex-col items-center justify-center absolute w-full top-[35%] px-4">
+      <div className="flex flex-col items-center justify-center absolute w-full md:top-[35%] top-[5%] px-4">
         
         {/* Badge */}
         <div className="flex items-center justify-center bg-black/70 border border-white/10 rounded-4xl pl-3 gap-2 backdrop-blur-md">
-          <div className="h-4 w-4 rounded-full bg-green-400 flex items-center justify-center mb-1">
+          <div className="h-4 md:w-4 w-8 rounded-full bg-green-400 flex items-center justify-center mb-1">
             <div className="bg-green-900 h-2 w-2 rounded-full"></div>
           </div>
 
-          <div className="text-white text-lg pr-3 py-1">
+          <div className="text-white md:text-lg text-sm pr-3 py-1">
             <h3>
               Scalable web, app, and software development for businesses that
               are ready to grow. 🚀
@@ -44,7 +44,7 @@ function HeroPage() {
         </div>
 
         {/* Heading */}
-        <div className="text-white text-7xl text-center w-[60vw] my-12 leading-tight">
+        <div className="text-white md:text-7xl text-4xl text-center md:w-[60vw] w-screen my-12 leading-tight">
           <span>We Create </span>
           <span className="text-[#1D79D3]">Websites</span>
           <span> that Sell & </span>
@@ -54,7 +54,7 @@ function HeroPage() {
 
         {/* Subtext */}
         <div>
-          <h4 className="text-white text-2xl opacity-60 text-center">
+          <h4 className="text-white md:text-2xl tet-xl opacity-60 text-center">
             Top-Tier Web Design & Digital Experiences for High-Impact Brands
           </h4>
         </div>

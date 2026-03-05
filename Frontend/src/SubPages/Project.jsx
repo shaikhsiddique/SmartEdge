@@ -75,20 +75,22 @@ function Scene() {
 }
 
 export default function Project() {
+
+  const fov = window.innerWidth < 768 ? 65 : 50;
   return (
     <div className="h-screen w-screen bg-black relative">
-      <div className="inline-flex items-center gap-1 text-[#e0e7ef] bg-[#1D79D3] px-4 py-2 rounded-full shadow-lg shadow-[#1D79D3]/20 absolute left-1/2 -translate-x-1/2 top-[10%] z-10">
-        <i className="ri-cursor-line text-xl"></i>
+      <div className="inline-flex items-center gap-1 text-[#e0e7ef] bg-[#1D79D3] px-4 px-2 py-2 rounded-full shadow-lg shadow-[#1D79D3]/20 absolute left-1/2 -translate-x-1/2 top-[10%] z-10">
+        <i className="ri-cursor-line md:text-xl text-sm"></i>
         <span className="text-sm font-medium">Website</span>
       </div>
-      <div className="title text-white text-5xl absolute top-[20%] left-1/2 -translate-x-1/2 z-10">
+      <div className="title text-white md:text-5xl text-3xl absolute top-[20%] left-1/2 -translate-x-1/2 z-10 text-nowrap">
         Our Best Work
       </div>
 
       <Canvas
         flat
         camera={{
-          fov: 50,                    // Narrower FOV = less distortion
+          fov: fov,                    // Narrower FOV = less distortion
           near: 1,
           far: 10000,
           position: [0, 1, 5.5]         // Outside the circle, looking at center

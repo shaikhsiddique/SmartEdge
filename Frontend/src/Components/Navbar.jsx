@@ -1,22 +1,31 @@
-import React from 'react'
+import React from "react";
 
 function Navbar() {
   return (
-    <div className=' content w-[60%] h-16 bg-black flex items-center justify-between px-16 absolute top-5 left-1/2 -translate-x-1/2 rounded-l-4xl rounded-r-4xl shadow-[#1D79D3] shadow-sm z-[9999999]'>
-        <div className="logo">
-        <img src="./images/logo3.png" className=' h-16' alt="" />
-        </div>
-        <div className="links flex items-center gap-4 text-white text-xl">
-            <h3 className=' text-[#1D79D3]'>Home</h3>
-            <h3>About</h3>
-            <h3>Work</h3>
-            <h3>Contact</h3>
-        </div>
-        <div className="Contact border-0  border-[#1D79D3] ">
-            <h3 className='text-white px-1 py-2 '>Lets Connect</h3>
-        </div>
+    <div className="w-[95%] sm:w-[85%] md:w-[70%] lg:w-[60%] h-14 md:h-16 bg-black flex items-center justify-between px-4 sm:px-6 md:px-10 absolute top-5 left-1/2 -translate-x-1/2 rounded-full shadow-[#1D79D3] shadow-sm z-[999999]">
+      
+      {/* Logo */}
+      <div className="logo flex-shrink-0">
+        <img src="./images/logo3.png" className="h-8 sm:h-10 md:h-12" alt="" />
+      </div>
+
+      {/* Links */}
+      <div className="flex items-center gap-3 sm:gap-5 md:gap-6 text-white text-xs sm:text-sm md:text-lg">
+        <h3 className="text-[#1D79D3] cursor-pointer">Home</h3>
+        <h3 className="cursor-pointer">About</h3>
+        <h3 className="cursor-pointer">Work</h3>
+        <h3 className="cursor-pointer">Contact</h3>
+      </div>
+
+      {/* Button */}
+      <div className="flex-shrink-0">
+        <button className="text-white border border-[#1D79D3] px-2 sm:px-3 md:px-4 py-1 rounded-full text-xs sm:text-sm md:text-base hover:bg-[#1D79D3] transition">
+          Lets Connect
+        </button>
+      </div>
+
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
