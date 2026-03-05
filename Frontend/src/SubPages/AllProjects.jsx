@@ -6,7 +6,7 @@ function AllProjects() {
   const projectData = [
     {
       id: 1,
-      name: "E-commerce Website Solutions",
+      name: "RoopDarshan Rental Hub",
       type: "Catalog Website (MERN Stack)",
       image: "./projectImages/p16.png",
       url : "https://www.roupdarshan.com/"
@@ -32,7 +32,7 @@ function AllProjects() {
     <div className=" h-[60vh] w-screen bg-black">
       <div className="text-white flex items-center justify-between w-full p-12">
         <h1 className="text-3xl font-semibold">Our Projects</h1>
-        <Link to="/projects" className="cursor-pointer opacity-70 text-sm hover:underline ">View All</Link>
+        <Link to="/work" className="cursor-pointer opacity-70 text-sm hover:underline ">View All</Link>
       </div>
     <h4 className=" text-white px-36 text-xl project-type"></h4>
       <div className="flex justify-center gap-10">
