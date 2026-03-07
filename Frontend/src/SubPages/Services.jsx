@@ -16,7 +16,7 @@ function Services() {
         <div className="grid md:grid-cols-3 gap-8">
           
           {/* Website */}
-          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300">
+          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold mb-3">
               Website Development & Management
             </h3>
@@ -28,7 +28,7 @@ function Services() {
           </div>
 
           {/* App */}
-          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300">
+          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold mb-3">
               App Development & Management
             </h3>
@@ -40,7 +40,7 @@ function Services() {
           </div>
 
           {/* Software */}
-          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300">
+          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold mb-3">
               Software Development & Maintenance
             </h3>
@@ -52,7 +52,7 @@ function Services() {
           </div>
 
           {/* Business */}
-          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300">
+          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold mb-3">
               Business Digital Solutions
             </h3>
@@ -63,7 +63,7 @@ function Services() {
           </div>
 
           {/* College */}
-          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300">
+          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold mb-3">
               College Project Development
             </h3>
@@ -75,7 +75,7 @@ function Services() {
           </div>
 
           {/* UI UX */}
-          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300">
+          <div className="bg-gradient-to-b from-white/5 to-white/0 border border-white/10 rounded-2xl p-7 hover:border-[#1D79D3] hover:shadow-[0_0_25px_rgba(29,121,211,0.3)] transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold mb-3">
               UI / UX & Conversion Design
             </h3>
