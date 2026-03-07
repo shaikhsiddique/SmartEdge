@@ -7,6 +7,7 @@ const IMAGE_COUNT = 20;
 export default function LandingPage() {
   const containerRef = useRef(null);
   const cardsRef = useRef([]);
+  const logoRef = useRef(null);
   const currentIndex = useRef(0);
   const lastMoveTime = useRef(0);
   const lastPos = useRef({ x: 0, y: 0 });
@@ -91,6 +92,13 @@ export default function LandingPage() {
     };
   }, []);
 
+  useEffect(() => {
+    gsap.fromTo(logoRef.current,
+      { autoAlpha: 0, scale: 0.8 },
+      { autoAlpha: 1, scale: 1, duration: 1.2, delay: 0.3, ease: "power3.out" }
+    );
+  }, []);
+
   return (
     <div
       ref={containerRef}
@@ -98,9 +106,10 @@ export default function LandingPage() {
     >
       <Navbar />
 
-      <div className="logo md:w-[70%] w-[105vw] flex absolute left-1/2 -translate-x-1/2 md:top-[10%] top-[25%]">
+      <div ref={logoRef} className="logo md:w-[70%] w-[105vw] flex absolute left-1/2 -translate-x-1/2 md:top-[10%] top-[25%]">
         <img src="https://res.cloudinary.com/daai6xwtd/image/upload/v1772889112/logo2_pqktld.png" className="w-full h-auto" alt="" />
       </div>
+      
 
       {[...Array(IMAGE_COUNT)].map((_, i) => (
         <div
