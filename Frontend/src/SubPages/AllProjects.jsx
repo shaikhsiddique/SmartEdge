@@ -8,21 +8,21 @@ function AllProjects() {
       id: 1,
       name: "RoopDarshan Rental Hub",
       type: "Catalog Website (MERN Stack)",
-      image: "./projectImages/p16.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888010/p16_prim9a.png",
       url : "https://www.roupdarshan.com/"
     },
     {
       id: 2,
       name: "South Aroma Resturant",
       type: "Resturant Website",
-      image: "./projectImages/p12.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p12_qb47rv.png",
       url: "https://southaroma.in/"
     },
     {
       id: 3,
       name: "Life Of Busker",
       type: "Personal Portfolio Website",
-      image: "./projectImages/p9.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888018/p9_esjraj.png",
       url:"https://life-of-busker.vercel.app/"
     },
     

@@ -12,7 +12,7 @@ function Navbar() {
 
       {/* Logo */}
       <div className="logo flex-shrink-0">
-        <img src="./images/logo3.png" className="h-8 sm:h-10 md:h-12" alt="" />
+        <img src="https://res.cloudinary.com/daai6xwtd/image/upload/v1772889109/logo3_wicn7r.png" className="h-8 sm:h-10 md:h-12" alt="" />
       </div>
 
       {/* Links */}

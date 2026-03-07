@@ -10,21 +10,21 @@ function AllProjectPage() {
       id: 1,
       name: "RoupDarshan Rental Hub",
       type: "Catalog Website (MERN Stack)",
-      image: "./projectImages/p16.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888010/p16_prim9a.png",
       url : "https://www.roupdarshan.com/"
     },
     {
       id: 2,
       name: "Trade Fit Fittness",
       type: "Catalog Website",
-      image: "./projectImages/p11.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888007/p11_ikbehf.png",
       url: "https://www.tradefitfitness.com/"
     },
     {
       id: 3,
       name: "SHOOPER",
       type: "Personal Portfolio Website",
-      image: "./projectImages/p15.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888006/p15_ne7mrj.png",
       url:"https://react-ecommerce-mu-fawn.vercel.app/"
     },
     
@@ -35,21 +35,21 @@ function AllProjectPage() {
       id: 1,
       name: "Meraaj Palace Resturant",
       type: "Resturant Website",
-      image: "./projectImages/p1.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772887995/p1_nvhluh.png",
       url : "https://www.meraajpalacerestaurant.com/"
     },
     {
       id: 2,
       name: "South Aroma Resturant",
       type: "Resturant Website",
-      image: "./projectImages/p12.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p12_qb47rv.png",
       url: "https://southaroma.in/"
     },
     {
       id: 3,
       name: "Swad Chinese Resturant",
       type: "Resturant Website",
-      image: "./projectImages/p2.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p2_qj3cnx.png",
       url:"https://www.swadrestaurant.in/"
     },
     
@@ -62,14 +62,14 @@ function AllProjectPage() {
       id: 3,
       name: "Siddique (Web Developer)",
       type: "Portfolio Website",
-      image: "./projectImages/p17.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888014/p17_epgjbz.png",
       url:"https://life-of-busker.vercel.app/"
     },
     {
       id: 3,
       name: "lliv",
       type: "Portfolio Website",
-      image: "./projectImages/p13.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888014/p13_yzrybs.png",
       url:"https://lliv.vercel.app/"
     },
     
@@ -80,21 +80,21 @@ function AllProjectPage() {
       id: 1,
       name: "Task Tracker",
       type: "Academic Web Application",
-      image: "./projectImages/p18.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888008/p18_efgmrh.png",
       url:"https://task-tracker-cyan-alpha.vercel.app/"
     },
     {
       id: 2,
       name: "Soul Space",
       type: "Academic Web Application",
-      image: "./projectImages/p19.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888010/p19_f1kls5.png",
       url:"https://soul-space-nu.vercel.app/"
     },
     {
       id: 3,
       name: "Melody Hub",
       type: "Academic Web Application",
-      image: "./projectImages/p20.png",
+      image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888014/p20_nrgiks.png",
       url:"https://melody-hub-bice.vercel.app/"
     },
     

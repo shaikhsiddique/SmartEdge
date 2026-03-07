@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
 
           {/* Logo + Message */}
           <div className="max-w-md">
-            <img src="./images/logo3.png" className="h-14 mb-4" alt="logo" />
+            <img src="https://res.cloudinary.com/daai6xwtd/image/upload/v1772889109/logo3_wicn7r.png" className="h-14 mb-4" alt="logo" />
 
             <p className="text-gray-400 leading-relaxed mb-6">
               Building modern, high-performance websites and digital
@@ -36,10 +37,10 @@ function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <div className="flex flex-col gap-2 text-gray-400">
-              <a href="#" className="hover:text-[#1D79D3] transition">Home</a>
-              <a href="#" className="hover:text-[#1D79D3] transition">About</a>
-              <a href="#" className="hover:text-[#1D79D3] transition">Work</a>
-              <a href="#" className="hover:text-[#1D79D3] transition">Contact</a>
+              <Link to='/' className="hover:text-[#1D79D3] transition">Home</Link>
+              <Link to = "/about" className="hover:text-[#1D79D3] transition">About</Link>
+              <Link to="/work" className="hover:text-[#1D79D3] transition">Work</Link>
+              <Link to='/contact' className="hover:text-[#1D79D3] transition">Contact</Link>
             </div>
           </div>
 
@@ -50,7 +51,7 @@ function Footer() {
             <div className="flex gap-4">
               {/* Instagram */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/smartedge__/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-white gap-2 bg-neutral-900 border border-white/10 px-4 py-2 rounded-lg hover:border-[#1D79D3] hover:text-[#1D79D3] transition"
@@ -61,10 +62,10 @@ function Footer() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/917498811073"
+                href="https://wa.me/917498811073?text=Hello%2C%20I%27d%20like%20to%20get%20in%20touch!"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" text-white flex items-center gap-2 bg-neutral-900 border border-white/10 px-4 py-2 rounded-lg hover:border-[#1D79D3] hover:text-[#1D79D3] transition"
+                className="text-white flex items-center gap-2 bg-neutral-900 border border-white/10 px-4 py-2 rounded-lg hover:border-[#1D79D3] hover:text-[#1D79D3] transition"
               >
                 <i className="ri-whatsapp-line"></i>
                 WhatsApp

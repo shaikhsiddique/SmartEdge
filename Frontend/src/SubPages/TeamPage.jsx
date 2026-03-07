@@ -14,7 +14,7 @@ function TeamPage() {
       </h4>
         <div className="h-[300px] w-[300px] rounded-full bg-pink-100 overflow-hidden">
           <img
-            src="./images/siddique.jpeg"
+            src="https://res.cloudinary.com/daai6xwtd/image/upload/v1772889071/siddique_hwpcgo.jpg"
             className="object-cover h-full w-full object-center"
             alt="Siddique Shaikh"
           />

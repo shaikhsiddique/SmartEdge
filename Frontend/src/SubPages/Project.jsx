@@ -6,11 +6,11 @@ import 'remixicon/fonts/remixicon.css';
 
 // Add a title for each image
 const images = [
-  { url: '/projectImages/p1.png', link: 'https://example.com/1', title: 'click to view' },
-  { url: '/projectImages/p2.png', link: 'https://example.com/2', title: 'click to view' },
-  { url: '/projectImages/p4.png', link: 'https://example.com/4', title: 'click to view' },
-  { url: '/projectImages/p12.png', link: 'https://example.com/7', title: 'click to view' },
-  { url: '/projectImages/p8.png', link: 'https://example.com/8', title: 'click to view' },
+  { url: 'https://res.cloudinary.com/daai6xwtd/image/upload/v1772887995/p1_nvhluh.png', link: 'https://www.meraajpalacerestaurant.com/', title: 'click to view' },
+  { url: 'https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p2_qj3cnx.png', link: 'https://www.swadrestaurant.in/', title: 'click to view' },
+  { url: 'https://res.cloudinary.com/daai6xwtd/image/upload/v1772887997/p4_mbmmrr.png', link: 'https://www.roupdarshan.com/', title: 'click to view' },
+  { url: 'https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p12_qb47rv.png', link: 'https://www.southaroma.in/', title: 'click to view' },
+  { url: 'https://res.cloudinary.com/daai6xwtd/image/upload/v1772888012/p8_hpwkyf.png', link: 'https://life-of-busker.vercel.app/', title: 'click to view' },
 ];
 
 function ImagePlane({ url, link, title, position, angle }) {

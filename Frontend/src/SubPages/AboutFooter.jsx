@@ -42,7 +42,7 @@ function AboutFooter() {
   return (
     <div ref={containerRef} className='relative w-screen overflow-hidden' style={{ height: 'clamp(300px, 60vw, 110vh)' }}>
       <img
-        src="./images/about.png"
+        src="https://res.cloudinary.com/daai6xwtd/image/upload/v1772889062/about_sqvo8k.webp"
         className='absolute inset-0 w-full h-full object-cover object-bottom'
         alt=""
       />

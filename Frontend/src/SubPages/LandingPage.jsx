@@ -10,6 +10,7 @@ export default function LandingPage() {
   const currentIndex = useRef(0);
   const lastMoveTime = useRef(0);
   const lastPos = useRef({ x: 0, y: 0 });
+  const images = ['https://res.cloudinary.com/daai6xwtd/image/upload/v1772887995/p1_nvhluh.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p2_qj3cnx.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772887992/p3_q2ntsx.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772887997/p4_mbmmrr.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p5_joskbs.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p6_qngz5r.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888003/p7_lapjen.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888012/p8_hpwkyf.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888018/p9_esjraj.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888006/p10_nubglo.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888007/p11_ikbehf.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p12_qb47rv.png',"https://res.cloudinary.com/daai6xwtd/image/upload/v1772888014/p13_yzrybs.png","https://res.cloudinary.com/daai6xwtd/image/upload/v1772887996/p14_olqnjy.png","https://res.cloudinary.com/daai6xwtd/image/upload/v1772888006/p15_ne7mrj.png","https://res.cloudinary.com/daai6xwtd/image/upload/v1772888010/p16_prim9a.png",'https://res.cloudinary.com/daai6xwtd/image/upload/v1772888014/p17_epgjbz.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888008/p18_efgmrh.png','https://res.cloudinary.com/daai6xwtd/image/upload/v1772888010/p19_f1kls5.png',"https://res.cloudinary.com/daai6xwtd/image/upload/v1772888014/p20_nrgiks.png"]
 
   const THROTTLE = 30;
   const MIN_DISTANCE = 70;
@@ -98,7 +99,7 @@ export default function LandingPage() {
       <Navbar />
 
       <div className="logo md:w-[70%] w-[105vw] flex absolute left-1/2 -translate-x-1/2 md:top-[10%] top-[25%]">
-        <img src="./images/logo2.png" className="w-full h-auto" alt="" />
+        <img src="https://res.cloudinary.com/daai6xwtd/image/upload/v1772889112/logo2_pqktld.png" className="w-full h-auto" alt="" />
       </div>
 
       {[...Array(IMAGE_COUNT)].map((_, i) => (
@@ -109,7 +110,7 @@ export default function LandingPage() {
           }}
           className="md:h-[150px] h-[75px] md:w-[300px] w-[150px] absolute pointer-events-none rounded-xl bg-cover bg-center"
           style={{
-            backgroundImage: `url('/projectImages/p${i + 1}.png')`,
+            backgroundImage: `url(${images[i]})`,
           }}
         />
       ))}

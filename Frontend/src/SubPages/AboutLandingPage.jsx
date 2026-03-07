@@ -6,7 +6,7 @@ function AboutLandingPage() {
     <div className="landingPage relative h-[80vh] mb-12 md:mb-0 w-screen overflow-hidden z-[9999]">
       <Navbar/>
       <video 
-        src="./video/v1.mp4" 
+        src="https://res.cloudinary.com/daai6xwtd/video/upload/v1772889075/v1_qynou0.mp4" 
         autoPlay 
         muted 
         loop 

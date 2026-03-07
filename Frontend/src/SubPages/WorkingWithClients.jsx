@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const clients = [
-  { src: "/images/client1.jpeg", name: "Meraaj Palace",  tag: "Restaurant · Booking System", num: "01" },
-  { src: "/images/client2.jpeg", name: "Swad Chinese",   tag: "F&B · Menu & Gallery",        num: "02" },
-  { src: "/images/client3.jpeg", name: "South Aroma",    tag: "Cafe · Brand Website",         num: "03" },
-  { src: "/images/client4.jpeg", name: "Roopdarshan",    tag: "Fashion · E-Commerce",         num: "04" },
+  { src: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772889063/client1_d8pfx5.jpg", name: "Meraaj Palace",  tag: "Restaurant · Booking System", num: "01" },
+  { src: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772889063/client2_jnjnt2.jpg", name: "Swad Chinese",   tag: "F&B · Menu & Gallery",        num: "02" },
+  { src: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772889069/client3_dnjo1o.jpg", name: "South Aroma",    tag: "Cafe · Brand Website",         num: "03" },
+  { src: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772889064/client4_wrletz.jpg", name: "Roopdarshan",    tag: "Fashion · E-Commerce",         num: "04" },
 ];
 
 const BLUE = "#1D79D3";
