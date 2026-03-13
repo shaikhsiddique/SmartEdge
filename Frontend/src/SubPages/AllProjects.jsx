@@ -20,8 +20,8 @@ function AllProjects() {
     },
     {
       id: 2,
-      name: "South Aroma Resturant",
-      type: "Resturant Website",
+      name: "South Aroma Restaurant",
+      type: "Restaurant Website",
       image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p12_qb47rv.png",
       url: "https://southaroma.in/"
     },

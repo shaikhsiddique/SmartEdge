@@ -30,25 +30,25 @@ function AllProjectPage() {
     
   ];
 
-  const ResturantProjectData = [
+  const RestaurantProjectData = [
     {
       id: 1,
-      name: "Meraaj Palace Resturant",
-      type: "Resturant Website",
+      name: "Meraaj Palace Restaurant",
+      type: "Restaurant Website",
       image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772887995/p1_nvhluh.png",
       url : "https://www.meraajpalacerestaurant.com/"
     },
     {
       id: 2,
-      name: "South Aroma Resturant",
-      type: "Resturant Website",
+      name: "South Aroma Restaurant",
+      type: "Restaurant Website",
       image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p12_qb47rv.png",
       url: "https://southaroma.in/"
     },
     {
       id: 3,
-      name: "Swad Chinese Resturant",
-      type: "Resturant Website",
+      name: "Swad Chinese Restaurant",
+      type: "Restaurant Website",
       image: "https://res.cloudinary.com/daai6xwtd/image/upload/v1772888000/p2_qj3cnx.png",
       url:"https://www.swadrestaurant.in/"
     },
@@ -121,10 +121,10 @@ function AllProjectPage() {
       {/* Restaurant Section */}
       <div className="pt-[10vh] md:pt-[12vh] lg:pt-[15vh] text-white">
         <h3 className="text-2xl sm:text-3xl md:text-4xl p-4 sm:p-6 md:p-8 lg:p-12 project-type">
-          Restaurant Website
+        Restaurant Website
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 px-4 sm:px-6 md:px-8 lg:px-36">
-          {ResturantProjectData.map((project) => (
+          {RestaurantProjectData.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
