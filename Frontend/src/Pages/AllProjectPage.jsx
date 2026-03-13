@@ -1,10 +1,14 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import ProjectCard from '../Components/ProjectCard';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
 function AllProjectPage() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   const EcommerceProjectData = [
     {
       id: 1,
