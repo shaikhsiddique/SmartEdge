@@ -51,7 +51,7 @@ function Review() {
       recommend: "Yes",
     },
     {
-      clientName: "Sunil Shinde",
+      clientName: "RoopDarshan Sunil Shinde",
       service: "Website Development",
       overallExperience: { rating: 5, label: "Very smooth" },
       satisfaction: { rating: 5, label: "Very satisfied" },
